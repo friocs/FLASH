@@ -1,0 +1,19 @@
+    @media screen and (min-width: 650px) {
+        .create_elptions {
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+        }
+        // .van-popup{
+        //     left: 5.3rem !important;
+        // }
+        .el-select-dropdown.is-multiple.create_elptions{
+            transform: translateX(0%) !important;
+        
+        }
+        // ::-webkit-scrollbar{
+        //     display:none;
+        // }
+        // .van-popup {
+        //     width: 5.7rem !important;
+        // }
+    }
