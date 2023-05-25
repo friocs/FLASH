@@ -1,0 +1,97 @@
+{
+  "name": "Meta_pro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@rollup/plugin-terser": "^0.1.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "axios": "^0.27.2",
+    "bignumber.js": "^9.1.0",
+    "core-js": "^3.8.3",
+    "dayjs": "^1.11.5",
+    "decimal.js": "^10.4.1",
+    "echarts": "^5.4.0",
+    "element-js-sdk": "^2.1.4",
+    "element-plus": "^2.2.18",
+    "ethers": "^5.6.9",
+    "fuse.js": "^6.6.2",
+    "js-cookie": "^3.0.1",
+    "lib-flexible-computer": "^1.0.2",
+    "pinia": "^2.0.18",
+    "postcss-px2rem": "^0.3.0",
+    "register-service-worker": "^1.7.2",
+    "swiper": "^8.4.4",
+    "vant": "^3.4.3",
+    "vue": "^3.2.13",
+    "vue-class-component": "^8.0.0-0",
+    "vue-i18n": "^9.2.2",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-router": "^4.0.13",
+    "vue3-qr-reader": "^1.0.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "style-resources-loader": "^1.5.0",
+    "typescript": "~4.5.5",
+    "unplugin-auto-import": "^0.11.1",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.2.4",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5",
+    "vue-tsc": "^0.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "vue/setup-compiler-macros": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "prettier/prettier": "off",
+      "@typescript-eslint/no-inferrable-types": "off",
+      "prefer-const": "off",
+      "vue/multi-word-component-names": "off",
+      "no-debugger": "off",
+      "no-console": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
